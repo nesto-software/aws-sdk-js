@@ -7,6 +7,10 @@
     "email": "",
     "url": "https://aws.amazon.com/"
   },
+  "publishConfig": {
+    "access": "restricted",
+    "repository": "https://verdaccio.nesto.app/"
+  },
   "config": {
     "test_args": "test test/json test/model test/protocol test/query test/services test/signers test/xml test/s3 test/cloudfront test/dynamodb test/polly test/rds test/publisher test/event-stream"
   },
